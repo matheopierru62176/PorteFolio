@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portfolio de Mathéo Pierru, étudiant en BUT Informatique : projets web, compétences front-end et réalisations en développement." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Mathéo Pierru" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:title" content="Mathéo Pierru | Portfolio Développeur Web" />
+  <meta property="og:description"
+    content="Découvrez les projets, compétences et réalisations de Mathéo Pierru, étudiant en BUT Informatique." />
+  <meta property="og:image" content="assets/logo.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mathéo Pierru | Portfolio Développeur Web" />
+  <meta name="twitter:description"
+    content="Portfolio de Mathéo Pierru : projets web, compétences techniques et expériences en développement." />
+  <meta name="twitter:image" content="assets/logo.png" />
+  <link rel="preconnect" href="https://unpkg.com" crossorigin />
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- Icon -->
+  <link rel="icon" href="assets/logo.png" />
+
+  <link rel="stylesheet" href="style.css" />
+  <title>Mathéo Pierru | Portfolio Développeur Web</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <!-- <img src="assets/logo1.png" alt="logo" /> -->
+      <a href="#">Mathéo</a>
+    </div>
+
+    <nav aria-label="Navigation principale">
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#skill">Skill</a>
+      <a href="#project">Project</a>
+      <!-- <a href="#contact">Contact</a> -->
+    </nav>
+
+
+    <div id="menu" class="hamburger-menu">
+      <svg width="35px" height="35px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 18L20 18" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+        <path d="M4 12L20 12" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+        <path d="M4 6L20 6" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+      </svg>
+    </div>
+
+    <!-- Mobile Nav -->
+    <div id="nav-mobile" class="mobile-nav">
+      <div id="close-mobile" class="close">
+        <svg width="800px" height="800px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: none;
+                stroke: #ffffff;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-width: 2px;
+              }
+            </style>
+          </defs>
+
+          <title />
+
+          <g id="cross">
+            <line class="cls-1" x1="7" x2="25" y1="7" y2="25" />
+
+            <line class="cls-1" x1="7" x2="25" y1="25" y2="7" />
+          </g>
+        </svg>
+      </div>
+      <ul>
+        <li><a class="nav-link" href="#">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skill">Skill</a></li>
+        <li><a class="nav-link" href="#project">Project</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+    <div class="container">
+      <div class="content">
+        <svg viewBox="0 0 1500 500" data-aos="fade-down">
+          <text x="50%" y="50%" text-anchor="middle" style="fill: #7884D9;">MATHEO</text>
+        </svg>
+        <h1 data-aos="zoom-in-up">
+          Actuellement étudiant en BUT informatique. <span>3e année</span>
+        </h1>
+        <button data-aos="zoom-out"><span><a href="#about">Découvrez-en plus</a></span></button>
+      </div>
+    </div>
+    </section>
+
+    <section id="about" class="about">
+    <div class="container">
+      <div class="content">
+        <h2 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+          À propos de moi
+        </h2>
+        <div class="about-me">
+          <div data-aos="zoom-out-right" data-aos-delay="300" class="profile">
+            <div class="image-box">
+              <img src="assets/PP.jpg" alt="Photo de profil de Mathéo Pierru" />
+            </div>
+          </div>
+
+          <div data-aos="zoom-in-left" data-aos-delay="300" class="description">
+            <div class="name-role">
+              <h3>Mathéo</h3>
+              <div class="role">
+                <p>Etudiant</p>
+              </div>
+            </div>
+            <p>Je suis un étudiant qui aimerait se axer sur le front-end pour créer et gérer le front-end des sites web
+              et des applications web, contribuant ainsi au succès du produit global. Découvrez certains de mes travaux
+              dans la section <a href='#project'>Projets</a></p>
+            <br />
+            <br />
+            <p>En dehors de l’informatique, je m’intéresse à plusieurs passions qui enrichissent mon quotidien.
+              Parmi celles-ci, mon intérêt pour les voitures occupe une place particulière, notamment pour les voitures japonaises, dont j’admire le design, la performance et l’ingénierie.
+              J’ai également un profond amour pour les animaux, trouvant leur compagnie à la fois réconfortante et fascinante, tant par leur comportement que par la diversité des espèces.
+              Enfin, je m’épanouis dans la création sur Blender, un logiciel de modélisation et d’animation 3D. J’aime donner vie à des objets, des environnements et des scènes imaginaires en expérimentant avec les textures, l’éclairage et les animations. Ce logiciel me permet d’explorer ma créativité et d’affiner mes compétences en conception 3D, que ce soit pour des projets artistiques ou des prototypes plus techniques.</p>
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section id="skill" class="skill">
+    <div class="container">
+      <div class="content">
+        <h2 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+          Skill
+        </h2>
+
+        <div class="skills" data-aos-delay="500">
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/html.svg" alt="Compétence HTML" />
+          </div>
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/css.svg" alt="Compétence CSS" />
+          </div>
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/mysql.svg" alt="Compétence MySQL" />
+          </div>
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/postgresql.svg" alt="Compétence PostgreSQL" />
+          </div>
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/javascript.svg" alt="Compétence JavaScript" />
+          </div>
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/tailwind.svg" alt="Compétence Tailwind CSS" />
+          </div>
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/figma.svg" alt="Compétence Figma" />
+          </div>
+          <div data-aos="zoom-in-down" class="skill-box">
+            <img src="assets/icon/github.svg" alt="Compétence GitHub" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section id="project" class="project">
+    <div class="container">
+      <div class="content">
+        <h2 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+          Project
+        </h2>
+
+        <div class="projects">
+          <div data-aos="zoom-in-down" data-aos-delay="300" class="card">
+            <img src="assets/projet1.png" alt="Aperçu du projet Cryptr" />
+
+            <div class="description">
+              <h3>Cryptr</h3>
+              <p>
+                Un escape game en ligne proposant une série d’énigmes variées à résoudre pour progresser et découvrir de
+                nouveaux indices.</p>
+              <div class="action">
+                <button data-title="Cryptr - Détails"
+                  data-description="Cryptr est un projet d'une durée d'environ deux mois, réalisé par une équipe de cinq personnes. Son objectif était de concevoir un site web dynamique permettant à l'utilisateur de jouer à des jeux cryptés afin de progresser dans l'histoire."
+                  data-image="assets/enigme_site_cryptr.png" data-skills="vue,tailwind,mongodb, github "
+                  data-learned="Durant ce projet, j'ai amélioré mon travail en équipe malgré les difficultés rencontrées par le groupe vers la fin. Par ailleurs, j'ai également découvert une nouvelle façon de styliser les sites web grâce à Tailwind.">Plus
+                  d'information</button>
+              </div>
+            </div>
+          </div>
+          <div data-aos="zoom-in-down" data-aos-delay="400" class="card">
+            <img src="assets/pokedex1.png" alt="Aperçu du projet Pokedex Pokemon" />
+
+            <div class="description">
+              <h3>Pokedex Pokemon</h3>
+              <p>
+                Application web permettant de consulter de petites informations de tous les pokemons et de toutes générations.
+              </p>
+              <div class="action">
+                <button data-title="Pokedex Pokemon - Détails"
+                  data-description="Le Pokédex est une application web permettant de consulter de courtes informations sur tous les Pokémon. Il est possible de rechercher les Pokémon en fonction de leur génération et de trier le nombre de Pokémon affichés selon les préférences de l'utilisateur."
+                  data-image="assets/pokedex.png" data-skills="vue"
+                  data-learned="Durant ce mini-projet, j'ai appris à bien appeler et a utiliser une API et j'ai découverts avec ce mini-projet le VueJS.">Plus d'information</button>
+              </div>
+            </div>
+          </div>
+          <div data-aos="zoom-in-down" data-aos-delay="500" class="card">
+            <img src="assets/projet3.png" alt="Aperçu du projet Nuit de l'info" />
+
+            <div class="description">
+              <h3>Nuit de l'info</h3>
+              <p>
+                Compétition de développement web en équipe, dont le but est de réaliser un site web en une
+                <strong>nuit</strong> sur un thème donné afin de défendre une cause.
+              </p>
+              <div class="action">
+                <button data-title="Nuit de l'info - Détails"
+                  data-description="La Nuit de l’Info est une compétition nationale qui réunit étudiants, enseignants et entreprises pour travailler ensemble sur le développement d’une application web.
+
+                La Nuit se déroule tous les ans, du premier jeudi du mois de décembre, coucher du soleil, jusqu'au lever du soleil le lendemain matin.
+                
+                Les participants ont la durée d'une nuit pour proposer, implémenter et packager une application Web 2.0. <br><br> Mission 2025 : explorer comment chaque partie du corps humain trouve un écho dans les mécanismes de l'Océan."
+                  data-image="assets/nuit_de_info.png" data-skills="vue,css ">Plus d'information</button>
+              </div>
+            </div>
+          </div>
+          <div data-aos="zoom-in-down" data-aos-delay="400" class="card">
+            <img src="assets/projet2.png" alt="Aperçu du projet Traitement d'image" />
+
+            <div class="description">
+              <h3>Traitement d'image</h3>
+              <p>
+                Élimination des sources de pollution lumineuse d’une image afin d’améliorer sa clarté et son contraste,
+                en révélant plus de détails.
+              </p>
+              <div class="action">
+                <button data-title="Traitement d'image - Détails"
+                  data-description="L'application de traitement d'image permet d'éliminer des sources de pollution lumineuse d’une image afin d’améliorer sa clarté et son contraste,<br>en révélant plus de détails."
+                  data-image="assets/traitement_image.png" data-skills="python"
+                  data-learned="Durant ce mini-projet, j'ai appris à effectuer des calculs sur des images afin de retirer certains éléments.">Plus d'information</button>
+              </div>
+            </div>
+          </div>
+          <div data-aos="zoom-in-down" data-aos-delay="400" class="card">
+            <img src="assets/projet4.png" alt="Aperçu du projet Jeu Vidéo VR" />
+
+            <div class="description">
+              <h3>Jeu Vidéo VR</h3>
+              <p>
+                Création d'un jeu en Réalité Virtuel.
+              </p>
+              <div class="action">
+                <button data-title="Jeu vidéo VR - Détails"
+                  data-description="Création d'un jeu vidéo en réalité virtuelle sous Unreal Engine, en utilisant exclusivement Blueprints pour la gestion de la logique du jeu, le tout réalisé en une semaine avec une équipe de cinq personnes."
+                  data-image="assets/dungeon.png" data-skills="epic, unreal"
+                  data-learned="Durant ce projet, j'ai découvert une logique complètement différente, car les Blueprints ne fonctionnent pas du tout comme le code traditionnel. De plus, j'ai appris à utiliser un nouvel environnement : Unreal Engine.">Plus d'information</button>
+              </div>
+            </div>
+          </div>
+          <div data-aos="zoom-in-down" data-aos-delay="400" class="card">
+            <img src="assets/salon.png" alt="Aperçu du projet Blender" />
+
+            <div class="description">
+              <h3>Blender</h3>
+              <p>
+                Utilisation de Blender pour créer un petit univers simple .
+              </p>
+              <div class="action">
+                <button data-title="Blender - Détails"
+                  data-description="Création d'une chambre simpliste d'un thème que l'utilisateur aime pour apprendre à utiliser Blender."
+                  data-image="assets/Jour.png" data-skills="blender"
+                  data-learned="Durant ce projet, j'ai découvert un nouveau logiciel afin de créer des objets 3D.">Plus d'information</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="popup" class="popup" role="dialog" aria-modal="true" aria-labelledby="popup-title">
+      <div class="popup-content">
+        <span id="close-popup" class="close-popup">&times;</span>
+        <h2 id="popup-title"></h2>
+        <img id="popup-image" src="" alt="popup image" />
+        <p id="popup-description"></p> <br>
+        <p id="popup-skills-titre"></p>
+        <div id="popup-skills"></div>
+        <p id="popup-learned-titre"></p><br>
+        <p id="popup-learned"></p>
+      </div>
+    </div>
+    </section>
+  </main>
+
+  <!-- <section id="contact" class="contact">
+    <div class="container">
+      <div class="content">
+        <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+          Contact
+        </h1>
+
+        <form data-aos="zoom-in-down" data-aos-delay="300" class="contact-form">
+          <div class="input">
+            <input type="text" placeholder="Name..." />
+            <input type="email" placeholder="Email..." />
+            <input type="number" placeholder="Phone..." />
+            <input type="text" placeholder="Subject..." />
+          </div>
+          <textarea name="message" placeholder="Message..."></textarea>
+        </form>
+      </div>
+    </div>
+  </section> -->
+
+  <footer>
+    <div data-aos="fade-up" data-aos-duration="1000" class="container">
+      <div class="profile">
+        <div class="logo">
+          <!-- <img src="assets/logo1.png" alt="logo" /> -->
+          <a href="">Mathéo</a>
+        </div>
+
+
+        <!-- Social Media -->
+
+      </div>
+
+      <div class="link-container">
+        <div class="resource">
+          <h2>Skills</h2>
+          <ul>
+            <li>
+              <a href="#">HTML</a>
+            </li>
+            <li>
+              <a href="#">CSS</a>
+            </li>
+            <li>
+              <a href="#">Figma</a>
+            </li>
+            <li>
+              <a href="#">Github</a>
+            </li>
+            <li>
+              <a href="#">Vue.js</a>
+            </li>
+            <li>
+              <a href="#">Node.js</a>
+            </li>
+            <li>
+              <a href="#">Tailwind CSS</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="navigation">
+          <h2>Navigation</h2>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#skill">Skill</a>
+            </li>
+            <li>
+              <a href="#project">Project</a>
+            </li>
+            <!-- <li>
+              <a href="#">Contact</a>
+            </li> -->
+          </ul>
+        </div>
+
+        <div class="lien">
+          <h2>Lien utile</h2>
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/math%C3%A9o-pierru-477b0a294/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+            </li>
+            <li>
+              <a href="https://github.com/matheopierru62176" target="_blank" rel="noopener noreferrer">Github</a>
+            </li>
+            <li>
+              <a href="mailto:matheopierru62176@gmail.com" target="_blank" rel="noopener noreferrer">matheopierru62176@gmail.com</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- Box Icon -->
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mathéo Pierru",
+      "jobTitle": "Étudiant en BUT Informatique",
+      "knowsAbout": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Vue.js",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "MySQL"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/math%C3%A9o-pierru-477b0a294/",
+        "https://github.com/matheopierru62176"
+      ]
+    }
+  </script>
+
+
+
+</body>
+
+</html>

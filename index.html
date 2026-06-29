@@ -5,14 +5,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
-    content="Portfolio de Mathéo Pierru, étudiant en BUT Informatique : projets web, compétences front-end et réalisations en développement." />
+    content="Portfolio de Mathéo Pierru, Alternance Chez Axe Informatique : projets web, compétences front-end et réalisations en développement." />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="Mathéo Pierru" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="fr_FR" />
   <meta property="og:title" content="Mathéo Pierru | Portfolio Développeur Web" />
   <meta property="og:description"
-    content="Découvrez les projets, compétences et réalisations de Mathéo Pierru, étudiant en BUT Informatique." />
+    content="Découvrez les projets, compétences et réalisations de Mathéo Pierru, Alternance Chez Axe Informatique." />
   <meta property="og:image" content="assets/logo.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Mathéo Pierru | Portfolio Développeur Web" />
@@ -97,7 +97,7 @@
           <text x="50%" y="50%" text-anchor="middle" style="fill: #7884D9;">MATHEO</text>
         </svg>
         <h1 data-aos="zoom-in-up">
-          Actuellement étudiant en BUT informatique. <span>3e année</span>
+          En Alternance avec OpenClassRoom et <span>Axe Informatique</span>
         </h1>
         <button data-aos="zoom-out"><span><a href="#about">Découvrez-en plus</a></span></button>
       </div>
@@ -463,6 +463,25 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
+
+
+    const menu = document.getElementById("menu");
+    const mobileNav = document.getElementById("nav-mobile");
+    const closeMenu = document.getElementById("close-mobile");
+
+    menu.addEventListener("click", () => {
+      mobileNav.classList.add("show");
+    });
+
+    closeMenu.addEventListener("click", () => {
+      mobileNav.classList.remove("show");
+    });
+
+    document.querySelectorAll(".nav-link").forEach(link => {
+      link.addEventListener("click", () => {
+        mobileNav.classList.remove("show");
+      });
+});
   </script>
   <script type="application/ld+json">
     {

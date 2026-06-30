@@ -747,6 +747,8 @@ footer .container .link-container .lien ul li a {
     width: 90%;
     font-size: 2rem;
     line-height: 42px;
+    max-width: 50%;
+    margin-top: 30px;
   }
 
   .hero .container .content svg text {
@@ -910,18 +912,20 @@ footer .container .link-container .lien ul li a {
   }
 
   .hero .container .content svg text {
-    font-size: 55px;
+    font-size: 100px;
   }
 
   .hero .container .content h1 {
     width: 100%;
     font-size: 1.4rem;
     line-height: 32px;
+    max-width: 50%;
   }
 
   .hero .container .content button {
     width: 100%;
-    max-width: 320px;
+    max-width: 170px;
+    
   }
 
   .about .container .content {

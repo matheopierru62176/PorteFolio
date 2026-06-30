@@ -1008,7 +1008,7 @@ footer .container .link-container .lien ul li a {
 @media screen and (max-width: 480px) {
 
   .hero .container .content svg text {
-    font-size: 40px;
+    font-size: 150px;
   }
 
   .hero .container .content h1 {
